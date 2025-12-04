@@ -20,6 +20,7 @@
   padding: 15px;
   border: 1px solid lightgray;
   border-bottom: none;
+  cursor: pointer;
 }
 
 .user-list_item:last-child {
