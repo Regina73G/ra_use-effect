@@ -47,7 +47,7 @@ export default function Details({info}: DetailsProps) {
     }
 
     load();
-  }, [info?.id]);
+  }, [info]);
 
   if (!info) return null;
   if (loading) return <div className="user-details loading">Загрузка данных…</div>;
